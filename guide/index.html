@@ -105,7 +105,7 @@
 </span></code></pre></div>
 <p>Then, create a function to display the version of the extension (REQUIRED!):</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span> <span class="nf">ver</span><span class="p">():</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">blue</span><span class="si">}</span><span class="s1">ext_name v</span><span class="si">{</span><span class="n">version</span><span class="si">}{</span><span class="n">reset</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">blue</span><span class="si">}</span><span class="s1">ext_name v</span><span class="si">{</span><span class="n">__version__</span><span class="si">}{</span><span class="n">reset</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
 </span></code></pre></div>
 <p>Then create a function to display the available commands for the extension (REQUIRED!):</p>
 <div class="language-py highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">def</span> <span class="nf">help_ext_nme</span><span class="p">():</span>
